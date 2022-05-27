@@ -5,7 +5,7 @@ import { useThree, useLoader } from '@react-three/fiber';
 const Background = () => {
   const texture = useLoader(
     THREE.TextureLoader,
-    process.env.PUBLIC_URL + '/autoshop.jpg'
+    'https://enrique-dev-coder.github.io/threejs-tesla-showcase/autoshop.jpg'
   );
   //el attach se usa para las propiedades de la escena y el primitive es como poner un objeto basico en react three fiber
   //al usar un loader se tiene que usar el suspense porque esta cargando async
